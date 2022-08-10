@@ -13,8 +13,8 @@ function readFile(fileName){
 
 function getWords(sourceFile, resumeFile){
     var readSourceFile = readFile(sourceFile);
-    const sourceFileWords = readSourceFile.split(" "); //split source file by spaces
-
+    var sourceFileWords = readSourceFile.split(" "); //split source file by spaces
+    
     var readResumeFile = readFile(resumeFile);
 
     var wordsList = [];
@@ -26,16 +26,22 @@ function getWords(sourceFile, resumeFile){
         }
     }
     //convert words list into string
-    wordsList = wordsList.toString(); //toString() method returns a string with array values separated by commas.
+    wordsList = wordsList.join(' '); //join list together, and seperate words with spaces
     //ex: ["apples", "oranges", "bananas"] -> "apples,oranges,bananas"
     return wordsList;
 }
 //Step 2: Parse the file
 function getEducation(fileName){
-    var educationFile = "education.txt"
+    var educationFile = "education.txt"; //file where education keywords are stored
     var education = getWords(educationFile, fileName);
     return education;
     
+}
+
+function getLanguages(fileName){
+    var langFile = "languages.txt"; //file where language keywords are stored
+    var languages = getWords(langFile, fileName);
+    return languages;
 }
 
 function getName(fileName){
@@ -48,9 +54,11 @@ function getName(fileName){
     return name
 }
 
+//get the parameters we need
 var education = getEducation(fileName) //education
 console.log(education);
-var languages = "" //languages
-const name = getName(fileName);
+var languages = getLanguages(fileName); //languages
+console.log(languages);
+const name = getName(fileName); //person's name
 console.log(name);
 
