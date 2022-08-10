@@ -10,14 +10,26 @@ Parser logic for Group Resume Parser project from Headstarter. https://github.co
 - Languages, Frameworks, etc
 - Education level (diploma, bachelors, etc)
 
+## Data format
+```
+degree: "Associate"
+languages: "Java Python C"
+name: "Billy Bob"
+```
+
 ## Files
-`education.txt`: List of education levels
-`parser.js`: Main parser program
-`.gitingore`: Avoid pushing the `.DS_Store` onto the repo
+- `education.txt`: List of education levels
+- `langauges.txt`: List of programming languages and frameworks
+- `parser.js`: Main parser program
+- `.gitingore`: Avoid pushing the `.DS_Store` onto the repo
 
 ## Running Program
 In a terminal window, type `node parser.js` to run the program.
 
 ## Resources
-Getting user input: https://www.w3schools.com/jsref/met_win_prompt.asp
-Convert file to string: https://www.geeksforgeeks.org/javascript-program-to-read-text-file/
+Getting user input: https://www.w3schools.com/jsref/met_win_prompt.asp\
+Convert file to string:\
+https://stackoverflow.com/questions/34857458/reading-local-text-file-into-a-javascript-array\
+https://www.geeksforgeeks.org/javascript-program-to-read-text-file/\
+Get first N words of a string: https://bobbyhadz.com/blog/javascript-get-first-n-words-of-string\
+Split string by newline and space: https://stackoverflow.com/questions/17271324/split-string-by-space-and-new-line-in-javascript
