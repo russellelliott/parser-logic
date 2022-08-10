@@ -32,4 +32,6 @@ Convert file to string: <br>
 https://stackoverflow.com/questions/34857458/reading-local-text-file-into-a-javascript-array <br>
 https://www.geeksforgeeks.org/javascript-program-to-read-text-file/ <br>
 Get first N words of a string: https://bobbyhadz.com/blog/javascript-get-first-n-words-of-string <br>
-Split string by newline and space: https://stackoverflow.com/questions/17271324/split-string-by-space-and-new-line-in-javascript <br>
+Split string by newline and space: <br>
+https://stackoverflow.com/questions/9849754/how-can-i-replace-newlines-line-breaks-with-spaces-in-javascript <br>
+https://stackoverflow.com/questions/17271324/split-string-by-space-and-new-line-in-javascript <br>

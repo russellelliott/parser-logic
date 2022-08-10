@@ -6,20 +6,31 @@ function readFile(fileName){
     const fs = require('fs')
     
     var fileText = fs.readFileSync(fileName, "utf-8");
+    fileText = fileText.replace( /\n/g, " " ); //replace newline with spaces
     return fileText;
 
 }
 
 //Step 2: Parse the file
+function getEducation(fileName){
+    var educationFile = "education.txt"
+    var educationNames = readFile(educationFile); //get list of education types
+
+    
+}
 var education = "" //education
 var languages = "" //languages
 
-//First 2 words
-data = readFile(fileName);
-console.log(data);
-//1. Turn newlines into spaces
-//2. Split the string up by spaces
-//3. Since each word is seperated by space, get the first two
-//4. Join the two seperate words together into a unified string.
-const name = data.replace( /\n/g, " " ).split( " " ).slice(0, 2).join(' ');
+function getName(fileName){
+    //First 2 words
+    data = readFile(fileName);
+    //1. Split the string up by spaces
+    //2. Since each word is seperated by space, get the first two
+    //3. Join the two seperate words together into a unified string.
+    const name = data.split( " " ).slice(0, 2).join(' ');
+    return name
+}
+
+const name = getName(fileName);
 console.log(name);
+
