@@ -39,6 +39,7 @@ https://bobbyhadz.com/blog/javascript-get-first-n-words-of-string
 
 ### Split string:
 https://www.w3schools.com/jsref/jsref_split.asp
+
 ### Split string by newline and space:
 https://stackoverflow.com/questions/9849754/how-can-i-replace-newlines-line-breaks-with-spaces-in-javascript <br>
 https://stackoverflow.com/questions/17271324/split-string-by-space-and-new-line-in-javascript <br>
@@ -46,7 +47,6 @@ https://stackoverflow.com/questions/17271324/split-string-by-space-and-new-line-
 ### Iterate through string:
 https://tutorial.eyehunts.com/js/loop-through-words-in-a-string-javascript-iterate-words-in-a-string-in-js/ <br>
 https://stackoverflow.com/questions/2430000/determine-if-string-is-in-list-in-javascript <br>
-
 
 ### Education Levels
 https://help.nfc.usda.gov/publications/EPICWEB/6592.htm
