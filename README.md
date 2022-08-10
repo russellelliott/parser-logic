@@ -27,9 +27,9 @@ name: "Billy Bob"
 In a terminal window, type `node parser.js` to run the program.
 
 ## Resources
-Getting user input: https://www.w3schools.com/jsref/met_win_prompt.asp\
-Convert file to string:\
-https://stackoverflow.com/questions/34857458/reading-local-text-file-into-a-javascript-array\
-https://www.geeksforgeeks.org/javascript-program-to-read-text-file/\
-Get first N words of a string: https://bobbyhadz.com/blog/javascript-get-first-n-words-of-string\
-Split string by newline and space: https://stackoverflow.com/questions/17271324/split-string-by-space-and-new-line-in-javascript
+Getting user input: https://www.w3schools.com/jsref/met_win_prompt.asp <br>
+Convert file to string: <br>
+https://stackoverflow.com/questions/34857458/reading-local-text-file-into-a-javascript-array <br>
+https://www.geeksforgeeks.org/javascript-program-to-read-text-file/ <br>
+Get first N words of a string: https://bobbyhadz.com/blog/javascript-get-first-n-words-of-string <br>
+Split string by newline and space: https://stackoverflow.com/questions/17271324/split-string-by-space-and-new-line-in-javascript <br>
