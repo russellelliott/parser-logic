@@ -47,6 +47,10 @@ https://stackoverflow.com/questions/17271324/split-string-by-space-and-new-line-
 https://tutorial.eyehunts.com/js/loop-through-words-in-a-string-javascript-iterate-words-in-a-string-in-js/ <br>
 https://stackoverflow.com/questions/2430000/determine-if-string-is-in-list-in-javascript <br>
 
+
+### Education Levels
+https://help.nfc.usda.gov/publications/EPICWEB/6592.htm
+
 ### Top Programming Languages List
 https://statisticstimes.com/tech/top-computer-languages.php
 
