@@ -26,7 +26,7 @@ function getWords(sourceFile, resumeFile){
         }
     }
     //convert words list into string
-    wordsList = wordsList.join(' '); //join list together, and seperate words with spaces
+    wordsList = wordsList.toString(); //use toString() to turn array into string. elements seperated by commas.
     //ex: ["apples", "oranges", "bananas"] -> "apples,oranges,bananas"
     return wordsList;
 }
